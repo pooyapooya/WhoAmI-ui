@@ -9,11 +9,15 @@ $(document).ready( function() {
     $('#error').mouseover(function(){
         if (demoEntered === false) {
 
-            $('#sidebar-login').sidebar({
-                overlay: true
+            $('#left-sidebar-login').sidebar({
+                overlay: false,
+                exclusive: false
+
             }).sidebar('toggle');
 
-
+            $('#right-sidebar-login').sidebar({
+                exclusive: false
+            }).sidebar('toggle');
 
 
             demoEntered = true;
