@@ -1,11 +1,27 @@
 @import "main-page-disc";
 
 body {
-  color: red;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  font-family: 'bitwise';
 
 }
-p{
-  color:red;
+
+#right-sidebar-login {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
+#left-sidebar-login {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 20px;
+}
+.username-login{
+  margin-top: 20px;
+}
 
+#leftside-button{
+  margin-left: -10px;
+  font-size: 25px;
+  opacity: 0.75;
+}
